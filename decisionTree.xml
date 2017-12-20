@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<decisionTree id="1">
+    <postType id="2" value="1">
+        <englishLevel id="5" value="2">N</englishLevel>
+        <englishLevel id="6" value="4">Y</englishLevel>
+        <englishLevel id="7" value="6">
+            <educationLevel id="11" value="B">N</educationLevel>
+            <educationLevel id="12" value="M">Y</educationLevel>
+        </englishLevel>
+    </postType>
+    <postType id="3" value="2">Y</postType>
+    <postType id="4" value="3">
+        <characterType id="8" value="1">
+            <educationLevel id="13" value="B">Y</educationLevel>
+            <educationLevel id="14" value="M">N</educationLevel>
+        </characterType>
+        <characterType id="9" value="2">N</characterType>
+        <characterType id="10" value="3">Y</characterType>
+    </postType>
+</decisionTree>
